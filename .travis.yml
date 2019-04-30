@@ -1,0 +1,9 @@
+language: cpp
+c++: 
+  - 5.0.2
+ 
+ 
+script: 
+  - cmake
+  - cmake --build . -- -j2
+
